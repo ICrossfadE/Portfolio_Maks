@@ -1,0 +1,127 @@
+.decoration-wave {
+  opacity: 0.5;
+}
+
+.decoration-wave .triangle:nth-child(2) {
+  position: absolute;
+  top: 50px;
+}
+.decoration-wave .triangle:nth-child(3) {
+  position: absolute;
+  top: 100px;
+}
+
+.triangle div:nth-child(1) {
+  content: "";
+  position: absolute;
+  height: 6px;
+  width: 50px;
+  transform: rotate(-35deg);
+  background-color: black;
+}
+.triangle div:nth-child(2) {
+  content: "";
+  position: absolute;
+  left: 37px;
+  height: 6px;
+  width: 50px;
+  transform: rotate(35deg);
+  background-color: black;
+}
+
+.triangle div:nth-child(3) {
+  content: "";
+  position: absolute;
+  left: 74px;
+  height: 6px;
+  width: 50px;
+  transform: rotate(-35deg);
+  background-color: black;
+}
+.triangle div:nth-child(4) {
+  content: "";
+  position: absolute;
+  left: 111px;
+  height: 6px;
+  width: 50px;
+  transform: rotate(35deg);
+  background-color: black;
+}
+
+.triangle div:nth-child(5) {
+  content: "";
+  position: absolute;
+  left: 148px;
+  height: 6px;
+  width: 50px;
+  transform: rotate(-35deg);
+  background-color: black;
+}
+
+.triangle div:nth-child(6) {
+  content: "";
+  position: absolute;
+  left: 185px;
+  height: 6px;
+  width: 50px;
+  transform: rotate(35deg);
+  background-color: black;
+}
+
+.triangle div:nth-child(7) {
+  content: "";
+  position: absolute;
+  left: 222px;
+  height: 6px;
+  width: 50px;
+  transform: rotate(-35deg);
+  background-color: black;
+}
+.triangle div:nth-child(8) {
+  content: "";
+  position: absolute;
+  left: 259px;
+  height: 6px;
+  width: 50px;
+  transform: rotate(35deg);
+  background-color: black;
+}
+
+.triangle div:nth-child(9) {
+  content: "";
+  position: absolute;
+  left: 296px;
+  height: 6px;
+  width: 50px;
+  transform: rotate(-35deg);
+  background-color: black;
+}
+.triangle div:nth-child(10) {
+  content: "";
+  position: absolute;
+  left: 333px;
+  height: 6px;
+  width: 50px;
+  transform: rotate(35deg);
+  background-color: black;
+}
+
+.triangle div:nth-child(11) {
+  content: "";
+  position: absolute;
+  left: 370px;
+  height: 6px;
+  width: 50px;
+  transform: rotate(-35deg);
+  background-color: black;
+}
+
+.triangle div:nth-child(12) {
+  content: "";
+  position: absolute;
+  left: 407px;
+  height: 6px;
+  width: 50px;
+  transform: rotate(35deg);
+  background-color: black;
+}

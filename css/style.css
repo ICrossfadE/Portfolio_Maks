@@ -6,6 +6,7 @@
 
 header {
   display: flex;
+  margin-bottom: 30px;
 }
 
 h1 {
@@ -19,14 +20,10 @@ a {
   color: rgb(245, 245, 245);
   line-height: 20px;
   font-weight: 800;
-  transition: 0.2s ease-in;
-  /* border-bottom: 4px solid rgb(240, 98, 146); */
 }
 
 a:hover {
   border-bottom: 4px solid rgb(240, 98, 146);
-
-  transition: 0.2s ease-in;
 }
 
 nav {
@@ -36,7 +33,7 @@ nav {
 }
 
 .content-box:first-child {
-  position: absolute;
+  /* position: absolute; */
   left: 0;
   width: 40%;
   height: 930px;
@@ -44,7 +41,7 @@ nav {
 }
 
 .content-box:last-child {
-  position: absolute;
+  /* position: absolute; */
   right: 0;
   width: 60%;
   height: 930px;
@@ -63,7 +60,6 @@ nav {
 }
 
 .header-image img {
-  /* top: -140px; */
   width: 1150px;
   background-position: 20%;
 }
@@ -120,3 +116,26 @@ h2 {
   font-size: 38px;
   background-color: rgb(240, 98, 146);
 }
+
+.container {
+  position: relative;
+  margin: 10px 15%;
+  height: 100px;
+}
+
+/* .first-line::before {
+  content: "";
+  position: absolute;
+  height: 6px;
+  width: 50px;
+  transform: rotate(-35deg);
+  background-color: black;
+}
+.second-line::before {
+  content: "";
+  position: absolute;
+  height: 6px;
+  width: 50px;
+  transform: rotate(35deg);
+  background-color: black;
+} */
