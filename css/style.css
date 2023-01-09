@@ -74,10 +74,11 @@ nav {
 }
 
 .baground-svg {
-  background: url(/svg/svg.svg);
+  background: url(/svg/dotted-svg.svg);
   margin: 114px 0 0 30px;
-  width: 540px;
-  height: 280px;
+  width: 548px;
+  height: 282px;
+  opacity: 0.4;
 }
 
 .header {
@@ -118,24 +119,65 @@ h2 {
 }
 
 .container {
-  position: relative;
-  margin: 10px 15%;
-  height: 100px;
+  margin: 250px 15% 200px 15%;
 }
 
-/* .first-line::before {
-  content: "";
-  position: absolute;
-  height: 6px;
-  width: 50px;
-  transform: rotate(-35deg);
-  background-color: black;
+.author-section {
+  display: flex;
+  justify-content: space-between;
 }
-.second-line::before {
+
+.author-image__baground {
+  background-image: url(/images//stock-photo-1023143543.jpg);
+  width: 598px;
+  height: 666px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: -80px -70px rgb(19, 19, 19), 0px 0px 10px rgba(19, 19, 19, 0.6);
+}
+
+.author-description {
+  width: 598px;
+}
+
+.author-description p {
+  padding-left: 3px;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.author-title span {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.author-title h3 {
+  position: relative;
+  font-size: 50px;
+  margin: 0;
+}
+
+.author-title h3::before {
   content: "";
   position: absolute;
-  height: 6px;
-  width: 50px;
-  transform: rotate(35deg);
-  background-color: black;
+  height: 16px;
+  width: 162px;
+  left: 3px;
+  bottom: 12px;
+  background-color: rgb(240, 98, 146);
+  z-index: -1;
+}
+
+.text-decoration__svg {
+}
+
+/* .line {
+  stroke: black;
+  stroke-width: 6px;
+  fill: transparent;
+}
+
+.test-svg {
+  border: 1px solid black;
 } */
