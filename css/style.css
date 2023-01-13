@@ -6,7 +6,6 @@
 
 header {
   display: flex;
-  margin-bottom: 30px;
 }
 
 h1 {
@@ -33,7 +32,6 @@ nav {
 }
 
 .content-box:first-child {
-  /* position: absolute; */
   left: 0;
   width: 40%;
   height: 930px;
@@ -41,7 +39,6 @@ nav {
 }
 
 .content-box:last-child {
-  /* position: absolute; */
   right: 0;
   width: 60%;
   height: 930px;
@@ -54,7 +51,6 @@ nav {
 }
 
 .header-image {
-  /* width: 1142px; */
   height: 830px;
   overflow: hidden;
 }
@@ -73,12 +69,10 @@ nav {
   background-position: center;
 }
 
-.baground-svg {
-  background: url(/svg/dotted-svg.svg);
+.header-svg {
   margin: 114px 0 0 30px;
-  width: 548px;
-  height: 282px;
-  opacity: 0.4;
+  height: 28%;
+  opacity: 0.1;
 }
 
 .header {
@@ -119,7 +113,8 @@ h2 {
 }
 
 .container {
-  margin: 250px 15% 200px 15%;
+  padding: 250px 15% 200px 15%;
+  background-color: rgb(218, 218, 218);
 }
 
 .author-section {
@@ -128,6 +123,7 @@ h2 {
 }
 
 .author-image__baground {
+  position: relative;
   background-image: url(/images//stock-photo-1023143543.jpg);
   width: 598px;
   height: 666px;
@@ -135,6 +131,28 @@ h2 {
   background-repeat: no-repeat;
   background-position: center;
   box-shadow: -80px -70px rgb(19, 19, 19), 0px 0px 10px rgba(19, 19, 19, 0.6);
+}
+
+.author-image__baground::before {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  right: 110px;
+  top: -20px;
+  border: 12px solid rgb(240, 98, 146);
+  border-radius: 50%;
+}
+
+.author-image__baground::after {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  right: 165px;
+  top: -10px;
+  background-color: rgb(240, 98, 146);
+  border-radius: 50%;
 }
 
 .author-description {
@@ -145,6 +163,10 @@ h2 {
   padding-left: 3px;
   font-weight: 500;
   font-size: 24px;
+}
+
+.author-title {
+  display: flex;
 }
 
 .author-title span {
@@ -168,16 +190,17 @@ h2 {
   background-color: rgb(240, 98, 146);
   z-index: -1;
 }
-
-.text-decoration__svg {
+/* height: 66.5px; */
+.text-svg {
+  padding: 0 0 0 50px;
+  height: 66.5px;
+  border: 1px solid red;
 }
 
-/* .line {
-  stroke: black;
-  stroke-width: 6px;
-  fill: transparent;
+.author-svg {
+  position: absolute;
+  bottom: -120px;
+  right: 0;
+  width: 40%;
+  opacity: 0.5;
 }
-
-.test-svg {
-  border: 1px solid black;
-} */
