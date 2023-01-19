@@ -11,6 +11,10 @@ body section:nth-child(3) > .container {
   background-color: rgb(255, 255, 255);
 }
 
+body section:nth-child(3) {
+  position: relative;
+}
+
 header {
   display: flex;
 }
@@ -201,11 +205,21 @@ h2 {
 }
 
 .title h3 {
+  position: relative;
   font-size: 66px;
   margin: 0;
   line-height: 48px;
 }
 
+.title h3::after {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: -32px;
+  right: -56px;
+  background-image: url(/svg/radio-svg.svg);
+}
 .title span {
   position: relative;
   font-size: 32px;
@@ -286,7 +300,7 @@ h2 {
 }
 
 .image:hover {
-  background-color: rgba(240, 98, 146);
+  background-color: rgb(240, 98, 146);
 }
 
 .button-load {
@@ -297,3 +311,19 @@ h2 {
   box-shadow: 6px 8px 20px rgba(19, 19, 19, 0.4);
   border-radius: 29px;
 }
+
+.section-svg {
+  position: absolute;
+  width: 444px;
+  top: 146px;
+  right: 0;
+  opacity: 0.1;
+}
+
+/* .title-svg {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: -25px;
+  right: -50px;
+} */
