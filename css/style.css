@@ -25,6 +25,11 @@ h1 {
   color: rgb(245, 245, 245);
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
 .header a {
   margin: 0 30px;
   color: rgb(245, 245, 245);
@@ -187,9 +192,19 @@ h2 {
 }
 
 .section-menu a {
+  position: relative;
   padding: 0 45px;
   font-size: 24px;
   font-weight: 500;
+}
+
+.section-menu a:hover::before {
+  content: "";
+  position: absolute;
+  width: 62%;
+  height: 12px;
+  bottom: -12px;
+  background-color: rgb(240, 98, 146);
 }
 
 .title {
@@ -290,17 +305,60 @@ h2 {
   margin: 100px 0;
 }
 
-.image {
+.image-gallery .image {
+  position: relative;
   width: 424px;
   height: 424px;
   margin: 10px 10px;
-  /* background-image: url(../images/stock-photo-1023143541.jpg); */
-  background-color: cadetblue;
+  background-size: cover;
   box-shadow: 0px 0px 10px rgba(19, 19, 19, 0.4);
+  z-index: 0;
 }
 
-.image:hover {
-  background-color: rgb(240, 98, 146);
+.image-gallery a:nth-child(1) .image {
+  background-image: url(../images/pic1.jpg);
+}
+.image-gallery a:nth-child(2) .image {
+  background-image: url(../images/pic2.jpg);
+  background-position: 0px;
+}
+.image-gallery a:nth-child(3) .image {
+  background-image: url(../images/pic3.jpg);
+}
+.image-gallery a:nth-child(4) .image {
+  background-image: url(../images/pic4.jpg);
+}
+.image-gallery a:nth-child(5) .image {
+  background-image: url(../images/pic5.jpg);
+}
+.image-gallery a:nth-child(6) .image {
+  background-image: url(../images/pic6.jpg);
+}
+.image-gallery a:nth-child(7) .image {
+  background-image: url(../images/pic7.jpg);
+}
+.image-gallery a:nth-child(8) .image {
+  background-image: url(../images/pic8.jpg);
+}
+.image-gallery a:nth-child(9) .image {
+  background-image: url(../images/pic9.jpg);
+  background-position: 0px;
+}
+
+.image-gallery a {
+  color: black;
+  font-weight: 700;
+}
+
+.image:hover::before {
+  content: "Details";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 424px;
+  height: 424px;
+  background-color: rgba(240, 98, 146, 0.5);
+  z-index: 3;
 }
 
 .button-load {
@@ -319,11 +377,3 @@ h2 {
   right: 0;
   opacity: 0.1;
 }
-
-/* .title-svg {
-  position: absolute;
-  width: 50px;
-  height: 50px;
-  top: -25px;
-  right: -50px;
-} */
