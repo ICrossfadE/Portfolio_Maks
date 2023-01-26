@@ -1,0 +1,94 @@
+<svg
+        class="dotted-svg vertical"
+        viewBox="0 0 282 548"
+        xmlns="http://www.w3.org/2000/svg"
+        width="100%"
+      >
+        <g
+        fill="black"
+        >
+          <circle cx="8" cy="8" r="8" />
+          <circle cx="74.5" cy="8" r="8" />
+          <circle cx="141" cy="8" r="8" />
+          <circle cx="207.5" cy="8" r="8" />
+          <circle cx="274" cy="8" r="8" />
+
+          <circle cx="8" cy="74.5" r="8" />
+          <circle cx="74.5" cy="74.5" r="8" />
+          <circle cx="141" cy="74.5" r="8" />
+          <circle cx="207.5" cy="74.5" r="8" />
+          <circle cx="274" cy="74.5" r="8" />
+
+          <circle cx="8" cy="141" r="8" />
+          <circle cx="74.5" cy="141" r="8" />
+          <circle cx="141" cy="141" r="8" />
+          <circle cx="207.5" cy="141" r="8" />
+          <circle cx="274" cy="141" r="8" />
+
+          <circle cx="8" cy="207.5" r="8" />
+          <circle cx="74.5" cy="207.5" r="8" />
+          <circle cx="141" cy="207.5" r="8" />
+          <circle cx="207.5" cy="207.5" r="8" />
+          <circle cx="274" cy="207.5" r="8" />
+
+          <circle cx="8" cy="274" r="8" />
+          <circle cx="74.5" cy="274" r="8" />
+          <circle cx="141" cy="274" r="8" />
+          <circle cx="207.5" cy="274" r="8" />
+          <circle cx="274" cy="274" r="8" />
+
+          <circle cx="8" cy="340.5" r="8" />
+          <circle cx="74.5" cy="340.5" r="8" />
+          <circle cx="141" cy="340.5" r="8" />
+          <circle cx="207.5" cy="340.5" r="8" />
+          <circle cx="274" cy="340.5" r="8" />
+          
+          <circle cx="8" cy="407" r="8" />
+          <circle cx="74.5" cy="407" r="8" />
+          <circle cx="141" cy="407" r="8" />
+          <circle cx="207.5" cy="407" r="8" />
+          <circle cx="274" cy="407" r="8" />
+
+          <circle cx="8" cy="473.5" r="8" />
+          <circle cx="74.5" cy="473.5" r="8" />
+          <circle cx="141" cy="473.5" r="8" />
+          <circle cx="207.5" cy="473.5" r="8" />
+          <circle cx="274" cy="473.5" r="8" />
+
+          <circle cx="8" cy="540" r="8" />
+          <circle cx="74.5" cy="540" r="8" />
+          <circle cx="141" cy="540" r="8" />
+          <circle cx="207.5" cy="540" r="8" />
+          <circle cx="274" cy="540" r="8" />
+
+          <circle cx="8" cy="606.5" r="8" />
+          <circle cx="74.5" cy="606.5" r="8" />
+          <circle cx="141" cy="606.5" r="8" />
+          <circle cx="207.5" cy="606.5" r="8" />
+          <circle cx="274" cy="606.5" r="8" />
+
+          <circle cx="8" cy="673" r="8" />
+          <circle cx="74.5" cy="673" r="8" />
+          <circle cx="141" cy="673" r="8" />
+          <circle cx="207.5" cy="673" r="8" />
+          <circle cx="274" cy="673" r="8" />
+
+          <circle cx="8" cy="739.5" r="8" />
+          <circle cx="74.5" cy="739.5" r="8" />
+          <circle cx="141" cy="739.5" r="8" />
+          <circle cx="207.5" cy="739.5" r="8" />
+          <circle cx="274" cy="739.5" r="8" />
+
+          <circle cx="8" cy="806" r="8" />
+          <circle cx="74.5" cy="806" r="8" />
+          <circle cx="141" cy="806" r="8" />
+          <circle cx="207.5" cy="806" r="8" />
+          <circle cx="274" cy="806" r="8" />
+
+          <circle cx="8" cy="872.5" r="8" />
+          <circle cx="74.5" cy="872.5" r="8" />
+          <circle cx="141" cy="872.5" r="8" />
+          <circle cx="207.5" cy="872.5" r="8" />
+          <circle cx="274" cy="872.5" r="8" />
+        </g>
+      </svg>

@@ -1,6 +1,4 @@
 * {
-  font-family: "Bebas Neue", cursive;
-  font-family: "Oswald", sans-serif;
   font-family: "Raleway", sans-serif;
 }
 
@@ -34,9 +32,7 @@ body section:nth-child(4) > .container::before {
 }
 
 body section:nth-child(5) > .container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  position: relative;
   background-color: rgb(255, 255, 255);
 }
 
@@ -162,7 +158,6 @@ h2 {
 .container {
   padding: 250px 15% 200px 15%;
   background-color: rgb(218, 218, 218);
-  z-index: -3;
 }
 
 .author-section {
@@ -209,7 +204,7 @@ h2 {
 
 .author-description p {
   padding-left: 3px;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 24px;
 }
 
@@ -226,7 +221,7 @@ h2 {
   position: relative;
   padding: 0 45px;
   font-size: 24px;
-  font-weight: 500;
+  font-weight: 600;
   transition: all 0.1s ease-out;
 }
 
@@ -396,6 +391,7 @@ h2 {
 
 .button-load {
   padding: 20px 66px;
+  font-weight: 600;
   border: none;
   color: rgba(255, 255, 255);
   background-color: rgba(19, 19, 19);
@@ -445,8 +441,6 @@ h2 {
   position: absolute;
   height: 12px;
   width: 12px;
-  /* top: auto;
-  bottom: auto; */
   background-color: rgb(240, 98, 146);
 }
 
@@ -489,9 +483,16 @@ h2 {
 .submit-form button {
   padding: 10px 40px;
   font-size: 18px;
-  font-weight: 700;
+  font-weight: 600;
   border: none;
   background-color: rgb(240, 98, 146);
+}
+
+.title-svg {
+  position: absolute;
+  height: 400px;
+  left: 50px;
+  opacity: 0.1;
 }
 
 .title-reviews {
@@ -550,7 +551,7 @@ h2 {
   padding: 90px 130px 70px 74px;
   background-color: rgba(129, 129, 129, 0.1);
   font-size: 22px;
-  font-weight: 700;
+  font-weight: 600;
   color: rgba(0, 0, 0, 0.5);
   box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.1);
 }
@@ -568,4 +569,38 @@ h2 {
   width: 150px;
   height: 150px;
   background-color: brown;
+}
+
+.client-avatar {
+  margin: 20px 0 0 0;
+}
+
+.slider .slider__item:nth-child(2) .client-avatar {
+  background-image: url(../images/avatar1.jpg);
+  background-size: contain;
+}
+.slider .slider__item:nth-child(3) .client-avatar {
+  background-image: url(../images/avatar2.jpg);
+  background-size: contain;
+}
+.slider .slider__item:nth-child(4) .client-avatar {
+  background-image: url(../images/avatar3.jpg);
+  background-size: contain;
+}
+.slider .slider__item:nth-child(5) .client-avatar {
+  background-image: url(../images/avatar4.jpg);
+  background-size: contain;
+}
+.slider .slider__item:nth-child(6) .client-avatar {
+  background-image: url(../images/avatar5.jpg);
+  background-size: contain;
+}
+.slider .slider__item:nth-child(7) .client-avatar {
+  background-image: url(../images/avatar6.jpg);
+  background-size: contain;
+}
+
+.slider__item {
+  display: flex;
+  justify-content: center;
 }
