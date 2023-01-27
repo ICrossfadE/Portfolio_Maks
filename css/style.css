@@ -222,7 +222,6 @@ h2 {
   padding: 0 45px;
   font-size: 24px;
   font-weight: 600;
-  transition: all 0.1s ease-out;
 }
 
 .section-menu a:hover::before {
@@ -232,7 +231,6 @@ h2 {
   height: 12px;
   bottom: -12px;
   background-color: rgb(240, 98, 146);
-  transition: all 0.1s ease-out;
 }
 
 .title {
@@ -394,10 +392,11 @@ h2 {
   font-weight: 600;
   border: none;
   color: rgba(255, 255, 255);
-  background-color: rgba(19, 19, 19);
+  background-color: rgb(19, 19, 19);
   box-shadow: 6px 8px 20px rgba(19, 19, 19, 0.4);
   border-radius: 29px;
   transition: all 0.1s ease-out;
+  cursor: pointer;
 }
 
 .button-load:hover {
@@ -441,6 +440,8 @@ h2 {
   position: absolute;
   height: 12px;
   width: 12px;
+  margin-left: 5px;
+  top: 40%;
   background-color: rgb(240, 98, 146);
 }
 
@@ -486,6 +487,7 @@ h2 {
   font-weight: 600;
   border: none;
   background-color: rgb(240, 98, 146);
+  cursor: pointer;
 }
 
 .title-svg {
@@ -547,6 +549,13 @@ h2 {
   position: relative;
 }
 
+.client-text img {
+  position: absolute;
+  width: 50px;
+  top: -25px;
+  left: 50px;
+}
+
 .client-text p {
   padding: 90px 130px 70px 74px;
   background-color: rgba(129, 129, 129, 0.1);
@@ -568,11 +577,21 @@ h2 {
 .client-avatar {
   width: 150px;
   height: 150px;
-  background-color: brown;
 }
 
 .client-avatar {
+  position: relative;
   margin: 20px 0 0 0;
+}
+
+.client-avatar::after {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  bottom: -75%;
+  left: 60%;
+  background-color: rgb(240, 96, 144);
 }
 
 .slider .slider__item:nth-child(2) .client-avatar {
@@ -603,4 +622,107 @@ h2 {
 .slider__item {
   display: flex;
   justify-content: center;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 500px;
+  color: #fff;
+  background-color: rgb(19, 19, 19);
+}
+
+.title-footer {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-start;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 500px;
+  color: #fff;
+  background-color: rgb(19, 19, 19);
+}
+
+.title-footer h3 {
+  font-size: 56px;
+  margin: 8px 0;
+  z-index: 0;
+  line-height: 48px;
+}
+
+.title-footer span {
+  padding: 2px 6px;
+  font-size: 28px;
+  font-weight: 600;
+  color: rgb(19, 19, 19);
+  background-color: rgb(240, 96, 144);
+}
+
+.my-contact {
+  display: flex;
+}
+
+.my-contact span {
+  display: flex;
+  position: relative;
+  margin: 0 200px;
+}
+
+.my-contact span:nth-child(1)::before {
+  content: url(../svg/envelope-solid.svg);
+  position: absolute;
+  top: -25px;
+  left: -40px;
+  transform: translateY(60%);
+  width: 30px;
+}
+
+.my-contact span:nth-child(2)::before {
+  content: url(../svg/phone-solid.svg);
+  position: absolute;
+  top: -16px;
+  left: -40px;
+  transform: translateY(60%);
+  width: 20px;
+}
+
+.my-contact span:nth-child(3)::before {
+  content: url(../svg/location-dot-solid.svg);
+  position: absolute;
+  top: -25px;
+  left: -40px;
+  transform: translateY(60%);
+  width: 20px;
+}
+
+.social {
+  display: flex;
+}
+
+.social a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 50px;
+  margin: 0 12px;
+  border-radius: 50%;
+  background-color: #fff;
+  transition: all 0.3s ease;
+}
+
+.social a:hover {
+  background-color: rgb(240, 96, 144);
+  transition: all 0.3s ease;
+}
+
+.social a img {
+  height: 30px;
 }
