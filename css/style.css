@@ -104,7 +104,7 @@ a {
 }
 
 .header-image__baground {
-  background-image: url(/images/header-photo.jpg);
+  background-image: url(../images/header-photo.jpg);
   width: 100%;
   height: 100%;
   background-size: cover;
@@ -167,7 +167,7 @@ h2 {
 
 .author-image__baground {
   position: relative;
-  background-image: url(/images//stock-photo-1023143543.jpg);
+  background-image: url(../images/stock-photo-1023143543.jpg);
   width: 598px;
   height: 666px;
   background-size: cover;
