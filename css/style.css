@@ -54,6 +54,10 @@ a {
   text-decoration: none;
   color: black;
 }
+.content-wrapper {
+  display: flex;
+  flex-grow: 2;
+}
 
 .header a {
   margin: 0 30px;
@@ -77,6 +81,7 @@ a {
 .content-box:first-child {
   left: 0;
   width: 40%;
+  /* width: 40vw; */
   height: 930px;
   background-color: rgb(19, 19, 19);
 }
@@ -84,6 +89,7 @@ a {
 .content-box:last-child {
   right: 0;
   width: 60%;
+  /* width: 60vw; */
   height: 930px;
   background-size: cover;
   overflow: hidden;
@@ -156,7 +162,7 @@ h2 {
 }
 
 .container {
-  /* width: 100vw; */
+  width: 100%;
   padding: 250px 15% 200px 15%;
   background-color: rgb(218, 218, 218);
 }

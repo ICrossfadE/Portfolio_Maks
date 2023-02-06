@@ -359,55 +359,77 @@
   }
 }
 @media (max-width: 640px) {
+  .container {
+    padding: 200px 0px;
+    margin: 0 auto;
+  }
   .header {
-    height: 80px;
+    height: 60px;
+  }
+
+  .header nav {
+    height: 24px;
+    display: flex;
+    justify-content: space-around;
   }
   .header a {
-    margin: 0 12px;
-    font-size: 12px;
+    margin: 0px 5px;
+    font-size: 7px;
   }
   h1 {
-    font-size: 20px;
+    font-size: 16px;
   }
   h2 {
-    font-size: 30px;
+    font-size: 13px;
   }
   .header-svg {
-    height: 14%;
+    height: 9%;
   }
   .title-first {
-    line-height: 42px;
-    font-size: 20px;
+    line-height: 40px;
+    font-size: 12px;
   }
   .title-last {
-    padding: 18px 36px;
-    font-size: 14px;
+    padding: 12px 18px;
+    font-size: 6px;
   }
   .content-box:first-child {
-    height: 660px;
+    height: 550px;
   }
 
   .content-box:last-child {
-    height: 660px;
+    height: 550px;
+  }
+
+  .content-box:last-child .header {
+    justify-content: flex-start;
+  }
+  .header-image__baground {
+    background-position-y: -105px;
+    background-position-x: -358px;
   }
   /* ======================================= */
   body section:nth-child(2) > .container {
-    padding: 200px 15% 150px 15%;
+    padding: 200px 24px;
   }
   .author-image__baground {
     width: 40%;
-    height: 266px;
-    box-shadow: -40px -35px rgb(19 19 19), 0px 0px 10px rgb(19 19 19 / 60%);
+    height: 182px;
+    box-shadow: -20px -20px rgb(19 19 19), 0px 0px 10px rgb(19 19 19 / 60%);
+  }
+
+  .author-section {
+    justify-content: space-around;
   }
   .author-image__baground::before {
     top: -15px;
-    right: 35px;
+    right: 10px;
     width: 5px;
     height: 5px;
   }
   .author-image__baground::after {
     top: -5px;
-    right: 75px;
+    right: 45px;
     width: 10px;
     height: 10px;
   }
@@ -415,45 +437,48 @@
     bottom: -65px;
   }
   .text-svg {
+    display: none;
     padding: 0 0 0 20px;
     height: 50.5px;
   }
   .author-title h3 {
-    font-size: 26px;
+    font-size: 18px;
     line-height: 28px;
   }
   .author-title h3::before {
-    height: 13px;
-    width: 82px;
+    height: 10px;
+    width: 56px;
     left: 2px;
-    bottom: 0px;
+    bottom: 4px;
   }
   .author-title span {
-    font-size: 10px;
+    font-size: 8px;
   }
   .author-description p {
-    width: 120%;
-    font-size: 10px;
+    padding: 0 5px 0 5px;
+    width: 55%;
+    font-size: 6px;
   }
   /* ======================================= */
   .title h3 {
-    font-size: 46px;
+    font-size: 30px;
     line-height: 48px;
   }
   .title h3::after {
-    width: 44px;
-    height: 44px;
+    width: 34px;
+    height: 34px;
+    right: -38px;
   }
   .title span {
-    font-size: 30px;
+    font-size: 20px;
     line-height: 26px;
   }
   .section-svg {
-    width: 120px;
+    width: 114px;
   }
   .section-menu a {
-    padding: 0 14px;
-    font-size: 12px;
+    padding: 0px 4px;
+    font-size: 10px;
   }
   .image-gallery a:nth-child(9) .image {
     display: none;
@@ -475,8 +500,13 @@
 
   /* ======================================= */
 
+  .container {
+    padding: 200px 0px;
+    margin: 0 auto;
+  }
+
   body section:nth-child(4) > .container {
-    padding: 200px 15% 150px 15%;
+    padding: 200px 0;
   }
   .title-subscribe h3 {
     font-size: 46px;
@@ -492,30 +522,32 @@
   .title-subtext {
     width: 100%;
     margin: 60px 0;
+    padding: 0 20px;
     font-size: 18px;
   }
   .submit-form input {
     width: 70%;
-    padding: 5px 50px 5px 30px;
+    padding: 5px 25px 5px 30px;
     font-size: 18px;
   }
   .submit-form button {
     width: 30%;
-    padding: 10px 40px;
+    padding: 10px 20px;
     font-size: 14px;
   }
   /* ======================================= */
   .title-reviews h3 {
-    font-size: 46px;
+    font-size: 36px;
   }
   .title-reviews span {
-    font-size: 26px;
+    font-size: 20px;
   }
   .title-reviews span::after {
-    width: 66px;
+    width: 62px;
     height: 20px;
   }
   .title-svg {
+    display: none;
     height: 120px;
   }
   .clients-tasks {
@@ -523,12 +555,12 @@
     margin: 60px 0;
   }
   .client-text p {
-    padding: 70px 90px 50px 54px;
-    font-size: 12px;
+    padding: 70px 60px 50px 44px;
+    font-size: 10px;
   }
   .client-avatar {
-    width: 102px;
-    height: 102px;
+    width: 85px;
+    height: 85px;
   }
 
   .client-avatar::after {
@@ -539,7 +571,7 @@
   }
 
   .client-bio {
-    right: -50px;
+    right: -42px;
     top: 50%;
   }
   .client-bio h3 {
@@ -551,13 +583,28 @@
   }
   /* ======================================= */
   .title-footer h3 {
-    font-size: 46px;
+    font-size: 36px;
   }
   .title-footer span {
-    font-size: 26px;
+    font-size: 20px;
   }
   .my-contact span {
-    margin: 0 30px;
-    font-size: 12px;
+    margin: 0 12px;
+    font-size: 10px;
+  }
+  .my-contact span:nth-child(1)::before {
+    top: -7px;
+    left: -12px;
+    width: 10px;
+  }
+  .my-contact span:nth-child(2)::before {
+    top: -7px;
+    left: -12px;
+    width: 10px;
+  }
+  .my-contact span:nth-child(3)::before {
+    top: -10px;
+    left: -12px;
+    width: 10px;
   }
 }
