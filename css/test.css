@@ -1,0 +1,665 @@
+@media (min-width: 1280px) {
+  .header-svg {
+    height: 22%;
+  }
+  .title-first {
+    line-height: 36px;
+    font-size: 46px;
+  }
+  h2 {
+    font-size: 59px;
+  }
+  .title-last {
+    font-size: 30px;
+  }
+
+  .author-image__baground {
+    width: 50%;
+  }
+  .author-description {
+    width: 40%;
+  }
+  .author-description p {
+    font-size: 20px;
+    width: 124%;
+  }
+
+  .text-svg {
+    height: 78.5px;
+  }
+
+  .author-title span {
+    font-size: 16px;
+  }
+
+  .author-title h3 {
+    font-size: 41px;
+  }
+  .author-title h3::before {
+    content: "";
+    position: absolute;
+    height: 20px;
+    width: 134px;
+    left: 3px;
+    bottom: 1px;
+    background-color: rgb(240, 98, 146);
+    z-index: -1;
+  }
+
+  .section-menu a {
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .image-gallery .image {
+    margin: 10px 8px;
+  }
+  .clients-tasks {
+    width: 80%;
+    margin: 70px 0;
+  }
+
+  .section-svg {
+    width: 370px;
+  }
+
+  /* .client-text {
+      position: relative;
+    }
+  
+    .client-text img {
+      position: absolute;
+      width: 50px;
+      top: -25px;
+      left: 50px;
+    }
+  
+    .client-text p {
+      padding: 90px 130px 70px 74px;
+      background-color: rgba(129, 129, 129, 0.1);
+      font-size: 22px;
+      font-weight: 600;
+      color: rgba(0, 0, 0, 0.5);
+      box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.1);
+    }
+  
+    .client-bio {
+      position: absolute;
+      right: -75px;
+      top: 50%;
+      transform: translateY(-50%);
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .client-avatar {
+      width: 150px;
+      height: 150px;
+    }
+  
+    .client-avatar {
+      position: relative;
+      margin: 20px 0 0 0;
+    }
+  
+    .client-avatar::after {
+      content: "";
+      position: absolute;
+      width: 30px;
+      height: 30px;
+      bottom: -75%;
+      left: 60%;
+      background-color: rgb(240, 96, 144);
+    } */
+
+  .my-contact span {
+    margin: 0 180px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .header a {
+    font-size: 12px;
+  }
+
+  .header-svg {
+    height: 18%;
+  }
+  .title-first {
+    line-height: 36px;
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 47px;
+  }
+  .title-last {
+    font-size: 23px;
+  }
+
+  .author-image__baground {
+    width: 50%;
+    height: 494px;
+  }
+  .author-description {
+    width: 40%;
+  }
+  .author-description p {
+    font-size: 17px;
+    width: 124%;
+  }
+
+  .text-svg {
+    height: 74.5px;
+  }
+
+  .section-svg {
+    width: 270px;
+  }
+
+  .author-title span {
+    font-size: 14px;
+  }
+
+  .author-title h3 {
+    font-size: 34px;
+  }
+  .author-title h3::before {
+    content: "";
+    position: absolute;
+    height: 23px;
+    width: 111px;
+    left: 3px;
+    bottom: 1px;
+    background-color: rgb(240, 98, 146);
+    z-index: -1;
+  }
+
+  .section-menu a {
+    padding: 0 30px;
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  .image-gallery .image {
+    width: 336px;
+    height: 336px;
+    margin: 10px 8px;
+  }
+
+  .image:hover::before {
+    width: 336px;
+    height: 336px;
+  }
+  .clients-tasks {
+    width: 74%;
+    margin: 70px 0;
+  }
+
+  .client-text p {
+    padding: 90px 130px 70px 74px;
+    font-size: 14px;
+  }
+
+  .client-avatar {
+    width: 120px;
+    height: 120px;
+  }
+
+  .client-bio {
+    right: -60px;
+  }
+  .client-avatar::after {
+    width: 15px;
+    height: 15px;
+    bottom: -62%;
+    left: 83%;
+  }
+
+  .slick-list {
+    height: 454px;
+  }
+
+  .title-svg {
+    height: 184px;
+  }
+
+  .my-contact span {
+    margin: 0 110px;
+  }
+}
+@media (min-width: 768px) {
+  h1 {
+    font-size: 24px;
+  }
+
+  .header {
+    height: 62px;
+  }
+
+  .header a {
+    font-size: 10px;
+
+    margin: 0 20px;
+  }
+
+  .content-box:first-child {
+    height: 770px;
+  }
+  .content-box:last-child {
+    height: 770px;
+  }
+
+  .header-svg {
+    height: 14%;
+  }
+  .title-first {
+    line-height: 34px;
+    font-size: 30px;
+  }
+  h2 {
+    font-size: 36px;
+  }
+  .title-last {
+    font-size: 18px;
+  }
+
+  .author-image__baground {
+    width: 50%;
+    height: 346px;
+  }
+  .author-description {
+    width: 40%;
+  }
+  .author-description p {
+    font-size: 11px;
+    width: 124%;
+  }
+
+  .text-svg {
+    height: 51.5px;
+  }
+
+  .section-svg {
+    width: 186px;
+  }
+
+  .author-title span {
+    font-size: 10px;
+  }
+
+  .author-title h3 {
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .author-title h3::before {
+    content: "";
+    position: absolute;
+    height: 13px;
+    width: 76px;
+    left: 2px;
+    bottom: 1px;
+    background-color: rgb(240, 98, 146);
+    z-index: -1;
+  }
+
+  .title h3 {
+    font-size: 46px;
+    margin: 0;
+    line-height: 48px;
+  }
+
+  .title span {
+    font-size: 30px;
+    line-height: 26px;
+  }
+
+  .section-menu a {
+    padding: 0 16px;
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  .title h3::after {
+    content: "";
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    top: -32px;
+    right: -56px;
+    background-image: url(/svg/radio-svg.svg);
+  }
+
+  .image-gallery .image {
+    width: 246px;
+    height: 246px;
+    margin: 10px 8px;
+  }
+
+  .image:hover::before {
+    width: 246px;
+    height: 246px;
+  }
+  /* ============================ */
+
+  .title-subscribe span {
+    font-size: 22px;
+  }
+  .title-subscribe h3 {
+    font-size: 46px;
+  }
+  .title-subscribe h3::before {
+    height: 26px;
+  }
+  .title-subtext {
+    width: 100%;
+    margin: 60px 0;
+    font-size: 18px;
+  }
+  .submit-form input {
+    padding: 10px 30px 10px 60px;
+    width: 70%;
+    line-height: 40px;
+    font-size: 20px;
+  }
+
+  .submit-form button {
+    width: 30%;
+    padding: 10px 30px;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  /* ============================ */
+
+  .title-reviews span {
+    font-size: 22px;
+  }
+  .title-reviews span::after {
+    width: 64px;
+  }
+  .title-reviews h3 {
+    font-size: 43px;
+  }
+  .title-reviews h3::before {
+    height: 28px;
+  }
+  .clients-tasks {
+    width: 64%;
+    margin: 34px 0;
+  }
+  .client-text img {
+    width: 40px;
+    top: -25px;
+    left: 50px;
+  }
+  .client-text p {
+    padding: 60px 130px 50px 54px;
+    font-size: 12px;
+  }
+  .client-avatar {
+    width: 100px;
+    height: 100px;
+  }
+
+  .client-bio {
+    right: -50px;
+  }
+
+  .client-bio h3 {
+    font-size: 16px;
+  }
+
+  .client-bio span {
+    font-size: 12px;
+  }
+  .client-avatar::after {
+    width: 15px;
+    height: 15px;
+    bottom: -62%;
+    left: 83%;
+  }
+
+  .slick-list {
+    height: 400px;
+  }
+
+  .title-svg {
+    height: 184px;
+  }
+  /* ============================ */
+
+  .title-footer h3 {
+    font-size: 45px;
+  }
+
+  .title-footer span {
+    font-size: 22px;
+  }
+
+  .my-contact span {
+    margin: 0 47px;
+  }
+
+  .social a {
+    height: 40px;
+    width: 40px;
+    margin: 0 12px;
+  }
+}
+@media (min-width: 640px) {
+  h1 {
+    font-size: 24px;
+  }
+
+  .header {
+    height: 62px;
+  }
+
+  .header a {
+    font-size: 10px;
+
+    margin: 0 20px;
+  }
+
+  .content-box:first-child {
+    height: 770px;
+  }
+  .content-box:last-child {
+    height: 770px;
+  }
+
+  .header-svg {
+    height: 14%;
+  }
+  .title-first {
+    line-height: 34px;
+    font-size: 30px;
+  }
+  h2 {
+    font-size: 36px;
+  }
+  .title-last {
+    font-size: 18px;
+  }
+
+  .author-image__baground {
+    width: 50%;
+    height: 346px;
+  }
+  .author-description {
+    width: 40%;
+  }
+  .author-description p {
+    font-size: 11px;
+    width: 124%;
+  }
+
+  .text-svg {
+    height: 51.5px;
+  }
+
+  .section-svg {
+    width: 186px;
+  }
+
+  .author-title span {
+    font-size: 10px;
+  }
+
+  .author-title h3 {
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .author-title h3::before {
+    content: "";
+    position: absolute;
+    height: 13px;
+    width: 76px;
+    left: 2px;
+    bottom: 1px;
+    background-color: rgb(240, 98, 146);
+    z-index: -1;
+  }
+
+  .title h3 {
+    font-size: 46px;
+    margin: 0;
+    line-height: 48px;
+  }
+
+  .title span {
+    font-size: 30px;
+    line-height: 26px;
+  }
+
+  .section-menu a {
+    padding: 0 16px;
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  .title h3::after {
+    content: "";
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    top: -32px;
+    right: -56px;
+    background-image: url(/svg/radio-svg.svg);
+  }
+
+  .image-gallery .image {
+    width: 246px;
+    height: 246px;
+    margin: 10px 8px;
+  }
+
+  .image:hover::before {
+    width: 246px;
+    height: 246px;
+  }
+  /* ============================ */
+
+  .title-subscribe span {
+    font-size: 22px;
+  }
+  .title-subscribe h3 {
+    font-size: 46px;
+  }
+  .title-subscribe h3::before {
+    height: 26px;
+  }
+  .title-subtext {
+    width: 100%;
+    margin: 60px 0;
+    font-size: 18px;
+  }
+  .submit-form input {
+    padding: 10px 30px 10px 60px;
+    width: 70%;
+    line-height: 40px;
+    font-size: 20px;
+  }
+
+  .submit-form button {
+    width: 30%;
+    padding: 10px 30px;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  /* ============================ */
+
+  .title-reviews span {
+    font-size: 22px;
+  }
+  .title-reviews span::after {
+    width: 64px;
+  }
+  .title-reviews h3 {
+    font-size: 43px;
+  }
+  .title-reviews h3::before {
+    height: 28px;
+  }
+  .clients-tasks {
+    width: 64%;
+    margin: 34px 0;
+  }
+  .client-text img {
+    width: 40px;
+    top: -25px;
+    left: 50px;
+  }
+  .client-text p {
+    padding: 60px 130px 50px 54px;
+    font-size: 12px;
+  }
+  .client-avatar {
+    width: 100px;
+    height: 100px;
+  }
+
+  .client-bio {
+    right: -50px;
+  }
+
+  .client-bio h3 {
+    font-size: 16px;
+  }
+
+  .client-bio span {
+    font-size: 12px;
+  }
+  .client-avatar::after {
+    width: 15px;
+    height: 15px;
+    bottom: -62%;
+    left: 83%;
+  }
+
+  .slick-list {
+    height: 400px;
+  }
+
+  .title-svg {
+    height: 184px;
+  }
+  /* ============================ */
+
+  .title-footer h3 {
+    font-size: 45px;
+  }
+
+  .title-footer span {
+    font-size: 22px;
+  }
+
+  .my-contact span {
+    margin: 0 47px;
+  }
+
+  .social a {
+    height: 40px;
+    width: 40px;
+    margin: 0 12px;
+  }
+}

@@ -1,0 +1,563 @@
+@media (max-width: 1536px) {
+  h2 {
+    font-size: 74px;
+  }
+  /* ======================================= */
+  .section-svg {
+    width: 370px;
+  }
+  .author-image__baground {
+    width: 40%;
+    height: 566px;
+  }
+
+  .author-image__baground::before {
+    right: 100px;
+  }
+  .author-image__baground::after {
+    right: 155px;
+  }
+  .author-description p {
+    font-size: 20px;
+  }
+  /* ======================================= */
+  .image-gallery a:nth-child(9) .image {
+    display: none;
+  }
+
+  .image-gallery {
+    justify-content: center;
+  }
+
+  .title-svg {
+    height: 320px;
+  }
+  /* ======================================= */
+  .submit-form input {
+    width: 500px;
+  }
+  .submit-form button {
+    padding: 10px 40px;
+    font-size: 18px;
+  }
+}
+@media (max-width: 1024px) {
+  h2 {
+    font-size: 49px;
+  }
+  .title-first {
+    line-height: 42px;
+    font-size: 40px;
+  }
+  .title-last {
+    padding: 18px 36px;
+    font-size: 27px;
+  }
+  .content-box:first-child {
+    height: 855px;
+  }
+
+  .content-box:last-child {
+    height: 855px;
+  }
+  /* ======================================= */
+  .author-image__baground {
+    width: 40%;
+    height: 366px;
+  }
+  .author-image__baground::before {
+    right: 100px;
+  }
+  .author-image__baground::after {
+    right: 155px;
+  }
+  .text-svg {
+    height: 70.5px;
+  }
+  .author-title h3 {
+    font-size: 36px;
+    line-height: 48px;
+  }
+  .author-title h3::before {
+    height: 18px;
+    width: 113px;
+    left: 3px;
+    bottom: 4px;
+  }
+  .author-title span {
+    font-size: 14px;
+  }
+  .author-description p {
+    font-size: 14px;
+  }
+  /* ======================================= */
+  .section-svg {
+    width: 270px;
+  }
+  .section-menu a {
+    padding: 0 26px;
+    font-size: 20px;
+  }
+  .image-gallery a:nth-child(9) .image {
+    display: none;
+  }
+  .image-gallery .image {
+    position: relative;
+    width: 330px;
+    height: 330px;
+    margin: 10px 10px;
+  }
+  .image:hover::before {
+    width: 330px;
+    height: 330px;
+  }
+
+  .image-gallery {
+    justify-content: center;
+  }
+
+  /* ======================================= */
+  .submit-form input {
+    width: 500px;
+    font-size: 26px;
+  }
+  .submit-form button {
+    padding: 10px 40px;
+    font-size: 18px;
+  }
+  /* ======================================= */
+  .title-svg {
+    height: 186px;
+  }
+  .clients-tasks {
+    width: 66%;
+    margin: 60px 0;
+  }
+  .client-text p {
+    padding: 70px 90px 50px 54px;
+    font-size: 16px;
+  }
+  .client-avatar {
+    width: 124px;
+    height: 124px;
+  }
+
+  .client-avatar::after {
+    width: 24px;
+    height: 24px;
+    bottom: -75%;
+    left: 60%;
+  }
+  .client-bio h3 {
+    font-size: 16px;
+  }
+
+  .client-bio span {
+    font-size: 12px;
+  }
+  /* ======================================= */
+  .my-contact span {
+    margin: 0 120px;
+  }
+}
+@media (max-width: 768px) {
+  .header {
+    height: 80px;
+  }
+  .header a {
+    margin: 0 20px;
+    font-size: 12px;
+  }
+  h1 {
+    font-size: 20px;
+  }
+  h2 {
+    font-size: 36px;
+  }
+  .header-svg {
+    height: 16%;
+  }
+  .title-first {
+    line-height: 42px;
+    font-size: 26px;
+  }
+  .title-last {
+    padding: 18px 36px;
+    font-size: 18px;
+  }
+  .content-box:first-child {
+    height: 720px;
+  }
+
+  .content-box:last-child {
+    height: 720px;
+  }
+  /* ======================================= */
+  .author-image__baground {
+    width: 40%;
+    height: 266px;
+    box-shadow: -40px -35px rgb(19 19 19), 0px 0px 10px rgb(19 19 19 / 60%);
+  }
+  .author-image__baground::before {
+    top: -15px;
+    right: 35px;
+    width: 5px;
+    height: 5px;
+  }
+  .author-image__baground::after {
+    top: -5px;
+    right: 75px;
+    width: 10px;
+    height: 10px;
+  }
+  .author-svg {
+    bottom: -65px;
+  }
+  .text-svg {
+    padding: 0 0 0 20px;
+    height: 50.5px;
+  }
+  .author-title h3 {
+    font-size: 26px;
+    line-height: 28px;
+  }
+  .author-title h3::before {
+    height: 13px;
+    width: 82px;
+    left: 2px;
+    bottom: 0px;
+  }
+  .author-title span {
+    font-size: 10px;
+  }
+  .author-description p {
+    font-size: 9px;
+  }
+  /* ======================================= */
+  .title h3 {
+    font-size: 46px;
+    line-height: 48px;
+  }
+  .title h3::after {
+    width: 44px;
+    height: 44px;
+  }
+  .title span {
+    font-size: 30px;
+    line-height: 26px;
+  }
+  .section-svg {
+    width: 180px;
+  }
+  .section-menu a {
+    padding: 0 14px;
+    font-size: 16px;
+  }
+  .image-gallery a:nth-child(9) .image {
+    display: none;
+  }
+  .image-gallery .image {
+    position: relative;
+    width: 240px;
+    height: 240px;
+    margin: 10px 10px;
+  }
+  .image:hover::before {
+    width: 240px;
+    height: 240px;
+  }
+
+  .image-gallery {
+    justify-content: center;
+  }
+
+  /* ======================================= */
+
+  body section:nth-child(4) > .container {
+    padding: 200px 15% 150px 15%;
+  }
+  .title-subscribe h3 {
+    font-size: 46px;
+  }
+  .title-subscribe h3::before {
+    height: 26px;
+    left: 5px;
+    bottom: 1px;
+  }
+  .title-subscribe span {
+    font-size: 22px;
+  }
+  .title-subtext {
+    width: 100%;
+    margin: 60px 0;
+    font-size: 18px;
+  }
+  .submit-form input {
+    width: 70%;
+    padding: 5px 50px 5px 30px;
+    font-size: 18px;
+  }
+  .submit-form button {
+    width: 30%;
+    padding: 10px 40px;
+    font-size: 14px;
+  }
+  /* ======================================= */
+  .title-reviews h3 {
+    font-size: 46px;
+  }
+  .title-reviews span {
+    font-size: 26px;
+  }
+  .title-reviews span::after {
+    width: 66px;
+    height: 20px;
+  }
+  .title-svg {
+    height: 110px;
+  }
+  .clients-tasks {
+    width: 72%;
+    margin: 60px 0;
+  }
+  .client-text p {
+    padding: 70px 90px 50px 54px;
+    font-size: 12px;
+  }
+  .client-avatar {
+    width: 102px;
+    height: 102px;
+  }
+
+  .client-avatar::after {
+    width: 14px;
+    height: 14px;
+    bottom: -65%;
+    left: 60%;
+  }
+
+  .client-bio {
+    right: -50px;
+    top: 50%;
+  }
+  .client-bio h3 {
+    font-size: 12px;
+  }
+
+  .client-bio span {
+    font-size: 8px;
+  }
+  /* ======================================= */
+  .title-footer h3 {
+    font-size: 46px;
+  }
+  .title-footer span {
+    font-size: 26px;
+  }
+  .my-contact span {
+    margin: 0 60px;
+  }
+}
+@media (max-width: 640px) {
+  .header {
+    height: 80px;
+  }
+  .header a {
+    margin: 0 12px;
+    font-size: 12px;
+  }
+  h1 {
+    font-size: 20px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  .header-svg {
+    height: 14%;
+  }
+  .title-first {
+    line-height: 42px;
+    font-size: 20px;
+  }
+  .title-last {
+    padding: 18px 36px;
+    font-size: 14px;
+  }
+  .content-box:first-child {
+    height: 660px;
+  }
+
+  .content-box:last-child {
+    height: 660px;
+  }
+  /* ======================================= */
+  body section:nth-child(2) > .container {
+    padding: 200px 15% 150px 15%;
+  }
+  .author-image__baground {
+    width: 40%;
+    height: 266px;
+    box-shadow: -40px -35px rgb(19 19 19), 0px 0px 10px rgb(19 19 19 / 60%);
+  }
+  .author-image__baground::before {
+    top: -15px;
+    right: 35px;
+    width: 5px;
+    height: 5px;
+  }
+  .author-image__baground::after {
+    top: -5px;
+    right: 75px;
+    width: 10px;
+    height: 10px;
+  }
+  .author-svg {
+    bottom: -65px;
+  }
+  .text-svg {
+    padding: 0 0 0 20px;
+    height: 50.5px;
+  }
+  .author-title h3 {
+    font-size: 26px;
+    line-height: 28px;
+  }
+  .author-title h3::before {
+    height: 13px;
+    width: 82px;
+    left: 2px;
+    bottom: 0px;
+  }
+  .author-title span {
+    font-size: 10px;
+  }
+  .author-description p {
+    width: 120%;
+    font-size: 10px;
+  }
+  /* ======================================= */
+  .title h3 {
+    font-size: 46px;
+    line-height: 48px;
+  }
+  .title h3::after {
+    width: 44px;
+    height: 44px;
+  }
+  .title span {
+    font-size: 30px;
+    line-height: 26px;
+  }
+  .section-svg {
+    width: 120px;
+  }
+  .section-menu a {
+    padding: 0 14px;
+    font-size: 12px;
+  }
+  .image-gallery a:nth-child(9) .image {
+    display: none;
+  }
+  .image-gallery .image {
+    position: relative;
+    width: 196px;
+    height: 196px;
+    margin: 10px 10px;
+  }
+  .image:hover::before {
+    width: 196px;
+    height: 196px;
+  }
+
+  .image-gallery {
+    justify-content: center;
+  }
+
+  /* ======================================= */
+
+  body section:nth-child(4) > .container {
+    padding: 200px 15% 150px 15%;
+  }
+  .title-subscribe h3 {
+    font-size: 46px;
+  }
+  .title-subscribe h3::before {
+    height: 26px;
+    left: 5px;
+    bottom: 1px;
+  }
+  .title-subscribe span {
+    font-size: 22px;
+  }
+  .title-subtext {
+    width: 100%;
+    margin: 60px 0;
+    font-size: 18px;
+  }
+  .submit-form input {
+    width: 70%;
+    padding: 5px 50px 5px 30px;
+    font-size: 18px;
+  }
+  .submit-form button {
+    width: 30%;
+    padding: 10px 40px;
+    font-size: 14px;
+  }
+  /* ======================================= */
+  .title-reviews h3 {
+    font-size: 46px;
+  }
+  .title-reviews span {
+    font-size: 26px;
+  }
+  .title-reviews span::after {
+    width: 66px;
+    height: 20px;
+  }
+  .title-svg {
+    height: 120px;
+  }
+  .clients-tasks {
+    width: 72%;
+    margin: 60px 0;
+  }
+  .client-text p {
+    padding: 70px 90px 50px 54px;
+    font-size: 12px;
+  }
+  .client-avatar {
+    width: 102px;
+    height: 102px;
+  }
+
+  .client-avatar::after {
+    width: 14px;
+    height: 14px;
+    bottom: -65%;
+    left: 60%;
+  }
+
+  .client-bio {
+    right: -50px;
+    top: 50%;
+  }
+  .client-bio h3 {
+    font-size: 12px;
+  }
+
+  .client-bio span {
+    font-size: 8px;
+  }
+  /* ======================================= */
+  .title-footer h3 {
+    font-size: 46px;
+  }
+  .title-footer span {
+    font-size: 26px;
+  }
+  .my-contact span {
+    margin: 0 30px;
+    font-size: 12px;
+  }
+}
